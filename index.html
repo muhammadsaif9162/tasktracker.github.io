@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskTracker - Track Your Tasks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.PNG">
+</head>
+<body>
+    <header>
+        <h1>Task List</h1>
+        <form id="add-new-form">
+            <input type="text" id="new-task-input" placeholder="What have you planned to do?">
+            <input id="new-task-submit" type="submit" value="Add Task">
+        </form>
+    </header>  
+
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <div id="tasks"></div>
+        </section>
+    </main> 
+    <script src="function.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
